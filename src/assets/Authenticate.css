@@ -1,0 +1,30 @@
+
+.eye-on,
+.eye-off {
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.input-icon-addon {
+    margin: 4px;
+    min-width: 2rem;
+    border-radius: 4px;
+    transition: all ease-in-out 0.15s;
+}
+
+.input-icon-addon:hover {
+    background-color: #f3f3f7;
+}
+
+.input-icon-addon:active {
+    background-color: #e1e1e6;
+}
+
+.error {
+    transition: all ease 0.15s;
+    font-size: 88%;
+    font-weight: 500;
+    color: #d63939;
+    visibility: hidden;
+    opacity: 0;
+  }
